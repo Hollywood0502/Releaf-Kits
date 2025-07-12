@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Releaf-Kits</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background:#2e5a3c; color:#fff; padding:20px; text-align:center; }
+    nav a { color:#fff; margin:0 10px; text-decoration:none; }
+    .hero { 
+      background: url('hero-bg.jpg') no-repeat center/cover;
+      color:#fff; 
+      padding:100px 20px; 
+      text-align:center; 
+    }
+    .features { display:flex; gap:20px; padding:40px 20px; }
+    .features div { flex:1; border:1px solid #ddd; padding:20px; text-align:center; }
+    .tiers { padding:40px 20px; }
+    .tiers table { width:100%; border-collapse:collapse; }
+    .tiers th, .tiers td { border:1px solid #ccc; padding:10px; text-align:center; }
+    footer { background:#f4f4f4; padding:20px; text-align:center; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Releaf-Kits</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#tiers">Kit Tiers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Thrive Beyond Tomorrow</h2>
+    <p>Eco-friendly disaster relief kits for people, pets, and peace of mind.</p>
+    <a href="#tiers" style="background:#f08a5d;color:#fff;padding:10px 20px;text-decoration:none;">
+      Shop Now
+    </a>
+  </section>
+
+  <section id="features" class="features">
+    <div>
+      <h3>Eco Packaging</h3>
+      <p>Biodegradable, reusable, and responsibly sourced.</p>
+    </div>
+    <div>
+      <h3>Mental Wellness</h3>
+      <p>Journals, calming teas, and mindfulness guides.</p>
+    </div>
+    <div>
+      <h3>Pet Care</h3>
+      <p>Food pouches, collapsible bowls, and ID tags.</p>
+    </div>
+  </section>
+
+  <section id="tiers" class="tiers">
+    <h2>Choose Your Kit</h2>
+    <table>
+      <tr>
+        <th>Tier</th><th>Contents</th><th>Price</th>
+      </tr>
+      <tr>
+        <td>Basic</td><td>Essentials only</td><td>$15</td>
+      </tr>
+      <tr>
+        <td>Standard</td><td>Essentials + Wellness Pack</td><td>$25</td>
+      </tr>
+      <tr>
+        <td>Premium</td><td>Full Kit + Pet Bundle</td><td>$40</td>
+      </tr>
+    </table>
+  </section>
+
+  <footer id="contact">
+    <p>Questions? Email us at hello@releafkits.com</p>
+    <p>&copy; 2025 Releaf-Kits</p>
+  </footer>
+
+</body>
+</html>
